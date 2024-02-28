@@ -17,7 +17,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
-app.UseExceptionHandling(); //异常处理
+app.UseExceptionHandling(); //异常处理  //放到最开始，可以捕获所有下面中间件的异常
 app.UseMyMiddleWare(); //自定义中间件
 app.UseLogging();//写入日志
 app.UseAuthorizationMiddleware();//权限认证

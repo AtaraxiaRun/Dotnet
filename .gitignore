@@ -1,2 +1,4 @@
 DotNet/obj/
 DotNet/.vs/
+DotNet/bin/
+NetCore.Api.Middleware/obj/

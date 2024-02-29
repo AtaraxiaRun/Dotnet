@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\bin\Debug\net8.0\SimpleFactory.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\bin\Debug\net8.0\SimpleFactory.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\bin\Debug\net8.0\SimpleFactory.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\bin\Debug\net8.0\SimpleFactory.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\bin\Debug\net8.0\SimpleFactory.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\refint\SimpleFactory.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\SimpleFactory.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\SimpleFactory\obj\Debug\net8.0\ref\SimpleFactory.dll

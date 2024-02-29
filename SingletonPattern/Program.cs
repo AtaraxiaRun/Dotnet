@@ -26,6 +26,8 @@
 老鸟：这个，你可以定义一个公有方法或者属性来把该类的实例公开出去了（注：这样就有了公有方法的定义了，该方法就是提供方法问类的全局访问点）
      * **/
     #endregion
+    
+    //单例模式
     internal class Program
     {
         static void Main(string[] args)

@@ -1,5 +1,6 @@
 #region 基础Middleware 中间件用法
 #if false
+
 using NetCore.Api.Middleware.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -34,6 +35,7 @@ app.Use(async (context, next) =>
         await next.Invoke();
     });
 app.UseRouting();
+//短小精悍的中间件
 app.Use(async (context, next) =>
 {
     // await context.Response.WriteAsync("Hello world Use!"); //响应体只能写入一次，因为HTTP协议不允许在发送响应体之后再更改响应头部信息
@@ -53,8 +55,50 @@ app.Run();
 #endif
 #endregion
 
+#region 带依赖注入的中间件
+#if false
+
+using NetCore.Api.Middleware.Middlewares;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<ILog, Log>();
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+
+app.UseMyCustomMiddleware(); //具有构造参数的注入中间件
+
+/*
+ 输出：
+进入了有参的构造函数中间件
+王锐日志:138
+ */
+
+app.MapGet("/", () => "Hello World!");
+
+app.Run();
+#endif
+#endregion
+
+#region 通过接口创建的中间件
+using NetCore.Api.Middleware.Middlewares;
+
+var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddTransient<MyInterfaceMiddleware>();
+var app = builder.Build();
+
+app.UseHttpsRedirection();
+
+app.UseMyInterfaceMiddleware(); //通过接口创建的中间件
+
+
+app.Run();
+#endregion
+
 #region 使用Map控制指定的访问链接，访问特定的中间件，比如当访问http://localhost:5009/map1时会触发HandleMapTest1中间件，输出：Map Test 1
-#if true
+#if false
 
 using Microsoft.AspNetCore.RateLimiting;
 

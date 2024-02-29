@@ -1,3 +1,5 @@
+#region 基础Middleware 中间件用法
+#if false
 using NetCore.Api.Middleware.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -48,15 +50,23 @@ app.UseAuthentication();
 app.MapControllers();
 
 app.Run();
+#endif
+#endregion
 
 #region 使用Map控制指定的访问链接，访问特定的中间件，比如当访问http://localhost:5009/map1时会触发HandleMapTest1中间件，输出：Map Test 1
-#if false
+#if true
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 app.Map("/map1", HandleMapTest1);
-
+app.Map("/map1/seg1", HandleMultiSeg);  //也可以是多个段
+app.MapWhen(context => context.Request.Query.ContainsKey("branch"), HandleBranch); //满足什么条件进行触发，localhost:1234/?branch=main	,感觉可以做参数的校验
 app.Map("/map2", HandleMapTest2);
+
+
+app.UseWhen(context => context.Request.Query.ContainsKey("branch"),
+    appBuilder => HandleBranchAndRejoin(appBuilder));   //m满足条件后加入主管道
 
 app.Run(async context =>
 {
@@ -80,5 +90,37 @@ static void HandleMapTest2(IApplicationBuilder app)
         await context.Response.WriteAsync("Map Test 2");
     });
 }
+static void HandleMultiSeg(IApplicationBuilder app)
+{
+    app.Run(async context =>
+    {
+        await context.Response.WriteAsync("Map Test 1");
+    });
+}
+
+static void HandleBranch(IApplicationBuilder app)
+{
+    app.Run(async context =>
+    {
+        var branchVer = context.Request.Query["branch"];
+        await context.Response.WriteAsync($"Branch used = {branchVer}");
+    });
+}
+
+void HandleBranchAndRejoin(IApplicationBuilder app)
+{
+    var logger = app.ApplicationServices.GetRequiredService<ILogger<Program>>(); 
+
+    app.Use(async (context, next) =>
+    {
+        var branchVer = context.Request.Query["branch"];
+        logger.LogInformation("Branch used = {branchVer}", branchVer);
+
+        // Do work that doesn't write to the Response.
+        await next();
+        // Do other work that doesn't write to the Response.
+    });
+}
+
 #endif
 #endregion

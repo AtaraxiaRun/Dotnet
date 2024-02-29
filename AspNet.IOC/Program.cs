@@ -10,10 +10,34 @@ namespace AspNetCore.IOC
         {
             var builder = WebApplication.CreateBuilder(args);
             builder.Services.AddTransient<ILog, Log>();
-            var app = builder.Build();
+            builder.Services.AddScoped<ILog2, Log2>();
+            builder.Services.AddSingleton<ILog3, Log3>();
 
-            var log = app.Services.GetService<ILog>();
-            log.WriteLog("张三");
+            var app = builder.Build();
+            Console.WriteLine("**************************log***************");
+
+            {
+                var log = app.Services.GetService<ILog>();
+                var log2 = app.Services.GetService<ILog>();
+                Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
+                //瞬时输出:False
+            }
+            Console.WriteLine("**************************log2***************");
+
+            {
+                var log = app.Services.GetService<ILog2>();
+                var log2 = app.Services.GetService<ILog2>();
+                Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
+                //作用域：输出TRUE
+            }
+            Console.WriteLine("**************************log3***************");
+            {
+                var log = app.Services.GetService<ILog3>();
+                var log2 = app.Services.GetService<ILog3>();
+                Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
+                //单例：输出TRUE
+            }
+
 
         }
     }

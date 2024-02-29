@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5Ty+ZiQ2klZWuBRd5/R8xjjcr8Jljkn4NPVK7VpZ/10=",
+  "Source": "AspNetCore.Api.MiniApi",
+  "BasePath": "_content/AspNetCore.Api.MiniApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

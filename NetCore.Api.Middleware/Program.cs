@@ -56,6 +56,8 @@ app.Run();
 #region 使用Map控制指定的访问链接，访问特定的中间件，比如当访问http://localhost:5009/map1时会触发HandleMapTest1中间件，输出：Map Test 1
 #if true
 
+using Microsoft.AspNetCore.RateLimiting;
+
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
@@ -122,5 +124,54 @@ void HandleBranchAndRejoin(IApplicationBuilder app)
     });
 }
 
+#endif
+#endregion
+#region 速率控制器
+#if false
+using Microsoft.AspNetCore.RateLimiting;
+using System.Threading.RateLimiting;
+ 
+var builder = WebApplication.CreateBuilder(args);
+
+var concurrencyPolicy = "Concurrency";
+var myOptions = new MyRateLimitOptions();
+builder.Configuration.GetSection(MyRateLimitOptions.MyRateLimit).Bind(myOptions);
+
+builder.Services.AddRateLimiter(_ => _
+    .AddConcurrencyLimiter(policyName: concurrencyPolicy, options =>
+    {
+        options.PermitLimit = myOptions.PermitLimit;
+        options.QueueProcessingOrder = QueueProcessingOrder.OldestFirst;
+        options.QueueLimit = myOptions.QueueLimit;
+    }));
+
+var app = builder.Build();
+
+app.UseRateLimiter();
+
+static string GetTicks() => (DateTime.Now.Ticks & 0x11111).ToString("00000");
+
+app.MapGet("/", async () =>
+{
+    await Task.Delay(500);
+    return Results.Ok($"Concurrency Limiter {GetTicks()}");
+
+}).RequireRateLimiting(concurrencyPolicy);
+
+app.Run();
+
+public class MyRateLimitOptions
+{
+    public const string MyRateLimit = "MyRateLimit";
+    public int PermitLimit { get; set; } = 100;  //最大并发请求
+    public int Window { get; set; } = 10;
+    public int ReplenishmentPeriod { get; set; } = 2;
+    public int QueueLimit { get; set; } = 2;
+    public int SegmentsPerWindow { get; set; } = 8;
+    public int TokenLimit { get; set; } = 10;
+    public int TokenLimit2 { get; set; } = 20;
+    public int TokensPerPeriod { get; set; } = 4;
+    public bool AutoReplenishment { get; set; } = false;
+}
 #endif
 #endregion

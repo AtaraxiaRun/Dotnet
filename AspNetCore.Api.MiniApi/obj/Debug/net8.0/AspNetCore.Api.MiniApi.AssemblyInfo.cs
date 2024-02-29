@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("SimpleFactory")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCore.Api.MiniApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("SimpleFactory")]
-[assembly: System.Reflection.AssemblyTitleAttribute("SimpleFactory")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a21843e043d377d3e53c6d78a6152c30cd1d6ffb")]
+[assembly: System.Reflection.AssemblyProductAttribute("AspNetCore.Api.MiniApi")]
+[assembly: System.Reflection.AssemblyTitleAttribute("AspNetCore.Api.MiniApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

@@ -12,6 +12,7 @@ namespace AspNetCore.IOC
             builder.Services.AddTransient<ILog, Log>();
             builder.Services.AddScoped<ILog2, Log2>();
             builder.Services.AddSingleton<ILog3, Log3>();
+            builder.Services.AddTransient<Log4>();  //直接注入实体对象
 
             var app = builder.Build();
             Console.WriteLine("**************************log***************");
@@ -28,8 +29,18 @@ namespace AspNetCore.IOC
                 var log = app.Services.GetService<ILog2>();
                 var log2 = app.Services.GetService<ILog2>();
                 Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
-                //作用域：输出TRUE
+                //作用域：输出TRUE 
             }
+            {
+                var log = app.Services.GetService<ILog2>();
+                using (var scope1 = app.Services.CreateScope())
+                {
+                    var log2 = scope1.ServiceProvider.GetService<ILog2>();
+                    Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
+                    // 在不同作用域中解析，输出FALSE
+                }
+            }
+
             Console.WriteLine("**************************log3***************");
             {
                 var log = app.Services.GetService<ILog3>();
@@ -37,6 +48,14 @@ namespace AspNetCore.IOC
                 Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
                 //单例：输出TRUE
             }
+            Console.WriteLine("**************************log4***************");
+            {
+                var log = app.Services.GetService<Log4>();
+                var log2 = app.Services.GetService<Log4>();
+                Console.WriteLine($"log : {log.GetHashCode()} ,log2 ： {log2.GetHashCode()},{log.GetHashCode() == log2.GetHashCode()}");
+                //瞬时输出:False
+            }
+
 
 
         }

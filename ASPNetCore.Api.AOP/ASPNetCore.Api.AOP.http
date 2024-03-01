@@ -1,0 +1,6 @@
+@ASPNetCore.Api.AOP_HostAddress = http://localhost:5269
+
+GET {{ASPNetCore.Api.AOP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

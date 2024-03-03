@@ -4,6 +4,9 @@ using Microsoft.AspNetCore.Mvc.Filters;
 
 namespace ASPNetCore.Api.AOP
 {
+    /// <summary>
+    /// https://learn.microsoft.com/zh-cn/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#use-middleware-in-the-filter-pipeline  我只能说这个太牛了 	
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)

@@ -3,6 +3,9 @@ using System.Xml.Linq;
 
 namespace AspNetCore.Api.MiniApi
 {
+    /// <summary>
+    /// Map根据指定的访问地址执行一个函数委托，也可以指定一段逻辑，逻辑满足后执行一个委托请求
+    /// </summary>
     public class Program
     {
         public static void Main(string[] args)
@@ -36,7 +39,7 @@ namespace AspNetCore.Api.MiniApi
             */
             app.MapPost("/todoitems", (TodoItem todo) =>
             {
-                todos.Add(todo);    
+                todos.Add(todo);
                 return Results.Created($"/todoitems/{todo.Id}", todo);
             });
             /*windows cmd调用 ：curl -X PUT http://localhost:5098/todoitems/2 ^

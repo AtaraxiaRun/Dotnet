@@ -104,7 +104,7 @@ using Microsoft.AspNetCore.RateLimiting;
 
 var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
-
+//问：Map请求后会直接短路吗？，我看到是用app.Run的 答：并不是，是可以传入对应的方法，执行一段逻辑
 app.Map("/map1", HandleMapTest1);
 app.Map("/map1/seg1", HandleMultiSeg);  //也可以是多个段
 app.MapWhen(context => context.Request.Query.ContainsKey("branch"), HandleBranch); //满足什么条件进行触发，localhost:1234/?branch=main	,感觉可以做参数的校验
@@ -192,7 +192,7 @@ builder.Services.AddRateLimiter(_ => _
 var app = builder.Build();
 
 app.UseRateLimiter();
-
+ 
 static string GetTicks() => (DateTime.Now.Ticks & 0x11111).ToString("00000");
 
 app.MapGet("/", async () =>

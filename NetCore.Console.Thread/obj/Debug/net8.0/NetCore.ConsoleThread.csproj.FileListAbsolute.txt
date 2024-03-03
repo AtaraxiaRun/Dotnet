@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\bin\Debug\net8.0\NetCore.ConsoleThread.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\bin\Debug\net8.0\NetCore.ConsoleThread.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\bin\Debug\net8.0\NetCore.ConsoleThread.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\bin\Debug\net8.0\NetCore.ConsoleThread.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\bin\Debug\net8.0\NetCore.ConsoleThread.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\refint\NetCore.ConsoleThread.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\NetCore.ConsoleThread.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Console.Thread\obj\Debug\net8.0\ref\NetCore.ConsoleThread.dll

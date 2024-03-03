@@ -9,6 +9,12 @@
             _next = next;
         }
 
+        /// <summary>
+        /// 带依赖注入的参数
+        /// </summary>
+        /// <param name="content"></param>
+        /// <param name="log">Log参数会自动进行注入</param>
+        /// <returns></returns>
         public async Task InvokeAsync(Microsoft.AspNetCore.Http.HttpContext content, ILog log)
         {
             await Console.Out.WriteLineAsync("进入了有参的构造函数中间件");

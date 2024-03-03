@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("ASPNetCore.Api.AOP")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NetCore.Console.Thread")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b137065ea12263e9b3a15576f3000b8389706dbc")]
-[assembly: System.Reflection.AssemblyProductAttribute("ASPNetCore.Api.AOP")]
-[assembly: System.Reflection.AssemblyTitleAttribute("ASPNetCore.Api.AOP")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyProductAttribute("NetCore.Console.Thread")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NetCore.Console.Thread")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // 由 MSBuild WriteCodeFragment 类生成。

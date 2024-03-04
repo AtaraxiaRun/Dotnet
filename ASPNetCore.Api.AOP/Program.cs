@@ -1,6 +1,7 @@
 
 using ASPNetCore.Api.AOP.FilterAop;
 using Microsoft.AspNetCore.Mvc.Filters;
+using ASPNetCore.Api.AOP.Middlewares;
 
 namespace ASPNetCore.Api.AOP
 {
@@ -41,7 +42,7 @@ namespace ASPNetCore.Api.AOP
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
-
+            app.UseMyMiddleware();
             app.UseHttpsRedirection();
 
             app.UseAuthorization();

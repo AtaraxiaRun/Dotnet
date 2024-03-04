@@ -23,6 +23,7 @@ namespace ASPNetCore.Api.AOP.FilterAop
         /// <param name="context"></param>
         public void OnAuthorization(AuthorizationFilterContext context)
         {
+            Console.WriteLine("开始授权");
             //检查用户是否登录
             if (!context.HttpContext.User.Identity.IsAuthenticated)
             {

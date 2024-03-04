@@ -6,7 +6,7 @@ namespace ASPNetCore.Api.AOP.Controllers
 {
     [Route("[controller]/[action]")]
     [ApiController]
-    //[AopAuthorizationFilter("User")] //可以给指定的控制器加授权特性
+    [AopAuthorizationFilter("User")] //可以给指定的控制器加授权特性
     public class UserController : ControllerBase
     {
         public readonly List<User> users = new List<User>()
@@ -44,6 +44,7 @@ namespace ASPNetCore.Api.AOP.Controllers
 
         [HttpGet]
         [AopResourceFilter(1)] //缓存有效期，秒
+        [MiddlewareFilter<FilterMiddlewarePipeline>]
         public IActionResult GetByUserId(int id)
         {
 

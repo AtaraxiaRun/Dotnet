@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "0rSNB8O/Mn3K7o7pNik7QRyICtMihriXlNKzNkG0PSA=",
+  "Source": "AspNetCore.Api.ConfigurationService",
+  "BasePath": "_content/AspNetCore.Api.ConfigurationService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

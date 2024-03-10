@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCore.Api.ConfigurationService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe09fc92f7c0f8f398de8fce290ad7f6d6133de8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCore.Api.ConfigurationService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCore.Api.ConfigurationService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

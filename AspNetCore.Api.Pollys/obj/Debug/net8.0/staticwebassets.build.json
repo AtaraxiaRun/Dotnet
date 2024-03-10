@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EFNw2B4odNMYmKqejVTe1FQygy/HQhL0DznrFH5wu2s=",
+  "Source": "AspNetCore.Api.Pollys",
+  "BasePath": "_content/AspNetCore.Api.Pollys",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

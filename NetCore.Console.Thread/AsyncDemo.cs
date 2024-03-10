@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace NetCore.ConsoleThread
 {
+    /// <summary>
+    /// 异步方法
+    /// </summary>
     public class AsyncDemo
     {
         // HttpClient 实例最好由依赖注入提供，并且在应用程序生命周期中重用

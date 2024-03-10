@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "xvfRj2S3mnJGZCdNpj8CM/4Lm8FIjX5A0vsu+9BICJ8FELSgqlttiEozWL/kbZFpiplT21deqki/fWg0TOtmyQ==",
+  "success": true,
+  "projectFilePath": "D:\\BaiduNetdiskDownload\\SWCODE\\GitHub\\DotNet\\AspNetCore.Api.Pollys\\AspNetCore.Api.Pollys.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\12987\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\polly\\8.3.0\\polly.8.3.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\polly.core\\8.3.0\\polly.core.8.3.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\polly.ratelimiting\\8.3.0\\polly.ratelimiting.8.3.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.4.0\\swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.4.0\\swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
+    "C:\\Users\\12987\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

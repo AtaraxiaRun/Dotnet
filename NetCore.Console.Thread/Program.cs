@@ -6,6 +6,7 @@ namespace NetCore.ConsoleThread
     {
         static void Main(string[] args)
         {
+#if false
             #region 并发编程
             ConcurrencyDemo demo = new ConcurrencyDemo(3);
             demo.ExecuteTasks();
@@ -84,6 +85,27 @@ namespace NetCore.ConsoleThread
 
             Console.WriteLine("操作完成。");
             #endregion
+             #region 线程安全对象
+            var threadConcurrent = new ThreadConcurrent();
+            Console.WriteLine("*****************输出普通线程集合***********");
+            threadConcurrent.ThreadList(); //结果是无序的
+            Console.WriteLine("*****************输出线程安全ConcurrentBag集合***********");
+            threadConcurrent.ThreadInterlockedList(); //结果是有序的
+            Console.WriteLine("*****************输出普通int集合累加***********");
+            threadConcurrent.ThreadInt();
+            Console.WriteLine("*****************输出原子Interlocked.Increment操作累加***********");
+            threadConcurrent.ThreadInterlockInt();
+
+            #endregion
+#endif
+            #region 线程锁
+            var threadLock = new ThreadLock();
+            Console.WriteLine("*****************输出线程锁的结果**************************");
+           // threadLock.ThreadLockObject();
+            Console.WriteLine("*****************输出原子锁的结果**************************");
+            threadLock.ThreadInterlocked();
+            #endregion
+
             Console.ReadLine();
         }
 

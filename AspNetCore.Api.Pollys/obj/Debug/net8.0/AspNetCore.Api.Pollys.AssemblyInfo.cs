@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCore.Api.Pollys")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93f07b7720a7cace3ce8dbfac0ea804b9c4e1927")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCore.Api.Pollys")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCore.Api.Pollys")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

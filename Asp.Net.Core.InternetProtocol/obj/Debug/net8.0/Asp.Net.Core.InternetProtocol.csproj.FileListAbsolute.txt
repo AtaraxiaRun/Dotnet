@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\bin\Debug\net8.0\Asp.Net.Core.InternetProtocol.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\bin\Debug\net8.0\Asp.Net.Core.InternetProtocol.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\bin\Debug\net8.0\Asp.Net.Core.InternetProtocol.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\bin\Debug\net8.0\Asp.Net.Core.InternetProtocol.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\bin\Debug\net8.0\Asp.Net.Core.InternetProtocol.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\refint\Asp.Net.Core.InternetProtocol.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\Asp.Net.Core.InternetProtocol.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\Asp.Net.Core.InternetProtocol\obj\Debug\net8.0\ref\Asp.Net.Core.InternetProtocol.dll

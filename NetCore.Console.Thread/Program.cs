@@ -110,15 +110,6 @@ namespace NetCore.ConsoleThread
         }
 
 
-
-
-        #region 并行编程
-        #endregion
-
-        #region 异步编程
-        #endregion
-
-
     }
 
 

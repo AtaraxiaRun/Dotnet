@@ -4,6 +4,9 @@ using System.Net;
 
 namespace ASPNetCore.Api.AOP.FilterAop
 {
+    /// <summary>
+    /// 异常捕获
+    /// </summary>
     public class AopExceptionFilterAttribute : ExceptionFilterAttribute
     {
         private readonly ILogger _logger;

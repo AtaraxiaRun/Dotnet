@@ -22,7 +22,7 @@
             Console.WriteLine($"GetSection读取 ：{db4}");
 
             #region 注释
-            //.无语了 ，GetConnectionString函数 只是用来读取数据库链接字符串的，写死了的
+            //.无语了 ，GetConnectionString函数 只是用来读取数据库链接字符串的，ConnectionString写死了的
             // string db1 = configuration.GetConnectionString("Data:DbConnectionString");
             //Console.WriteLine($"GetConnectionString函数读取 ：{db1}");
             #endregion

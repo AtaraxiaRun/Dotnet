@@ -1,5 +1,8 @@
 ﻿namespace AspNetCore.Api.ConfigurationService.Configuration
 {
+    /// <summary>
+    /// 读取用户输入得参数
+    /// </summary>
     public class ConfigCommandLineRead
     {
         /// <summary>

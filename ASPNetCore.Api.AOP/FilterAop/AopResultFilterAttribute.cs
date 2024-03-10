@@ -6,6 +6,9 @@ using System.Text.Json.Serialization;
 
 namespace ASPNetCore.Api.AOP.FilterAop
 {
+    /// <summary>
+    /// 结果更新：日志转换，大小写转换，国家语言转换
+    /// </summary>
     public class AopResultFilterAttribute : ResultFilterAttribute
     {
         private readonly ILogger _logger;

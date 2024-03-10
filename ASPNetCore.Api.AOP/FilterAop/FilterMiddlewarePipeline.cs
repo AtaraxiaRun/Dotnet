@@ -1,7 +1,7 @@
 ﻿namespace ASPNetCore.Api.AOP.FilterAop
 {
     /// <summary>
-    /// 不过可以通过细粒度控制的中间件：通过[MiddlewareFilter(FilterMiddlewarePipeline)]标记将指定的中间件作用到指定的控制器，方法，中间件筛选器与资源筛选器在筛选器管道的相同阶段运行，在授权过滤器后面执行
+    /// 【中间件】可以通过细粒度控制的中间件：通过[MiddlewareFilter(FilterMiddlewarePipeline)]标记将指定的中间件作用到指定的控制器，方法，中间件筛选器与资源筛选器在筛选器管道的相同阶段运行，在授权过滤器后面执行
     /// </summary>
     public class FilterMiddlewarePipeline
     {

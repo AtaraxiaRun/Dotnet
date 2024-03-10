@@ -16,7 +16,7 @@
 
     public class DbOptions
     {
-        public static string Data = "Data";  //这个名字要和配置文件中第一个键的值一样
-        public string DbConnectionString { get; set; }
+        public static string Data = "Data";  //这个名字要和配置文件中第一个键的值一样，  "Data": { "DbConnectionString": "Server=localhost;Database=MyDatabase;User ID=sa;Password=password;"}
+    public string DbConnectionString { get; set; }
     }
 }

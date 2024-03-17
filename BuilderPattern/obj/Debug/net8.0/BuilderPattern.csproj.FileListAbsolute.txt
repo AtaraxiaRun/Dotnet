@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\bin\Debug\net8.0\BuilderPattern.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\bin\Debug\net8.0\BuilderPattern.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\bin\Debug\net8.0\BuilderPattern.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\bin\Debug\net8.0\BuilderPattern.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\bin\Debug\net8.0\BuilderPattern.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\refint\BuilderPattern.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\BuilderPattern.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\BuilderPattern\obj\Debug\net8.0\ref\BuilderPattern.dll

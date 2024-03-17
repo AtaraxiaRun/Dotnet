@@ -37,6 +37,7 @@ namespace ASPNetCore.Api.AOP.FilterAop
 
     /// <summary>
     /// 异步版本：注意异步版本响应前，与响应后的内容都是在一个异步方法里面
+    /// 实现了异步版本如果同时实现了同步版本，并且都注册了，那么会优先用异步版本
     /// </summary>
     public class AopActionFilterAttributeAsync : IAsyncActionFilter
     {

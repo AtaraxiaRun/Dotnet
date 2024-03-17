@@ -1,0 +1,6 @@
+@ASP.NET.CORE.API.JwtHandler_HostAddress = http://localhost:5084
+
+GET {{ASP.NET.CORE.API.JwtHandler_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

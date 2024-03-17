@@ -82,6 +82,7 @@ app.Run();
 #endregion
 
 #region 通过接口创建的中间件
+#if false
 using NetCore.Api.Middleware.Middlewares;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -95,6 +96,7 @@ app.UseMyInterfaceMiddleware(); //通过接口创建的中间件
 
 
 app.Run();
+#endif
 #endregion
 
 #region 使用Map控制指定的访问链接，访问特定的中间件，比如当访问http://localhost:5009/map1时会触发HandleMapTest1中间件，输出：Map Test 1
@@ -218,4 +220,78 @@ public class MyRateLimitOptions
     public bool AutoReplenishment { get; set; } = false;
 }
 #endif
+#endregion
+
+#region 中间件短路：路由后对中间件进行短路
+#if false
+ 
+var app = WebApplication.Create();
+
+app.UseHttpLogging();
+
+app.MapGet("/", () => "No short-circuiting!");
+app.MapGet("/short-circuit", () => "Short circuiting!").ShortCircuit(); //ShortCircuit短路方法
+app.MapShortCircuit(404, "robots.txt", "favicon.ico"); //一次为多个路由设置短路
+
+app.Run();
+#endif
+#endregion
+
+
+#region 中间件短路方法：不调用Invoke方法
+#if false
+var app = WebApplication.Create();
+app.Use(async (context, next) =>
+{
+    await Console.Out.WriteLineAsync("正常请求1");
+    await next.Invoke(context); //进入下一个中间件
+});
+
+app.Use(async (context, next) =>
+{
+    // 检查查询字符串参数
+    var queryParamValue = context.Request.Query["shortcircuit"].FirstOrDefault();
+
+    // 如果查询参数是 "1"，则进行短路
+    if (queryParamValue == "1")
+    {
+        await context.Response.WriteAsync("发生了短路"); //向http返回值写入短路结果（展示到页面）
+        await Console.Out.WriteLineAsync("发生了短路"); //写入到日志
+        return;
+    }
+    await next.Invoke(context);
+
+});
+
+app.Use(async (context, next) =>
+    {
+        await Console.Out.WriteLineAsync("短路后的方法3");  //这行是不会输出的
+        await next.Invoke(context);
+    });
+
+app.Run();
+#endif
+#endregion
+
+#region 中间件短路：Run
+var app = WebApplication.Create();
+
+app.Use(async (context, next) =>
+{
+    await Console.Out.WriteLineAsync("正常请求1");
+    await next.Invoke(context); //进入下一个中间件
+});
+
+app.Run(async context =>
+{
+    context.Response.ContentType = "text/plain; charset=utf-8"; // 明确指定内容类型和字符集
+    await context.Response.WriteAsync("终端中间件，不在执行管道中后续的委托");
+});
+app.Use(async (context, next) =>
+{
+
+    await Console.Out.WriteLineAsync("短路后的方法3");  //这行是不会输出的
+    await next.Invoke(context);
+});
+app.Run();
 #endregion

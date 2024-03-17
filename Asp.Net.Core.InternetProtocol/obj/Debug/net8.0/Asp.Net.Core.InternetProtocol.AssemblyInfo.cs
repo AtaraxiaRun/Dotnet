@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Asp.Net.Core.InternetProtocol")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c995baa0d1283e7712ca2691074d8763aa8648c1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Asp.Net.Core.InternetProtocol")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Asp.Net.Core.InternetProtocol")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

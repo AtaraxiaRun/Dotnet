@@ -5,7 +5,7 @@ using System.Net;
 namespace ASPNetCore.Api.AOP.FilterAop
 {
     /// <summary>
-    /// 异常捕获
+    /// 异常捕获:有异常会自动进来，不像Middleware中间件，要手动try catch异常
     /// </summary>
     public class AopExceptionFilterAttribute : ExceptionFilterAttribute
     {

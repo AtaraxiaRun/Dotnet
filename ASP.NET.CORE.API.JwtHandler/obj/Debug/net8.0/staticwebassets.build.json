@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2pgqbW1LMqz/o5w+3dpXegLxgY0Y2w3ElgVffwhdUpw=",
+  "Source": "ASP.NET.CORE.API.JwtHandler",
+  "BasePath": "_content/ASP.NET.CORE.API.JwtHandler",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

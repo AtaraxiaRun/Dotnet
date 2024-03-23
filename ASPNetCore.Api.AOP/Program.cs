@@ -20,6 +20,7 @@ namespace ASPNetCore.Api.AOP
             builder.Services.AddControllers(options =>
             {
                 options.Filters.Add<AopActionFilterAttribute>(); // ActionFilter注册到全局
+                options.Filters.Add<MyGlobalFilter>(); //注册到全局，并且进行排除的ActionFilter
                 options.Filters.Add<AopExceptionFilterAttribute>(); //ExceptionFilter注册到全局
                 options.Filters.Add<AopResultFilterAttribute>(); // ResultFilterAttribute注册到全局
             });
@@ -33,6 +34,7 @@ namespace ASPNetCore.Api.AOP
             builder.Services.AddSwaggerGen();
             builder.Services.AddLogging();// 注入日志服务
             builder.Services.AddMemoryCache(); // 添加缓存服务
+            builder.Services.AddScoped<TimingActionFilter>();
 
             var app = builder.Build();
 

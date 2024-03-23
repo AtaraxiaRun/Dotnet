@@ -6,7 +6,7 @@ namespace ASPNetCore.Api.AOP.Controllers
 {
     [Route("[controller]/[action]")]
     [ApiController]
-    [AopAuthorizationFilter("User")] //可以给指定的控制器加授权特性
+    //[AopAuthorizationFilter("User")] //可以给指定的控制器加授权特性
     public class UserController : ControllerBase
     {
         public readonly List<User> users = new List<User>()
@@ -27,6 +27,7 @@ namespace ASPNetCore.Api.AOP.Controllers
         }
 
         [HttpPost]
+        [ServiceFilter(typeof(TimingActionFilter))]
         public IActionResult AddUser([FromBody] User user)
         {
             users.Add(user);
@@ -54,6 +55,16 @@ namespace ASPNetCore.Api.AOP.Controllers
                 return NotFound();
             }
             return Ok(user);
+        }
+
+        [HttpGet]
+        //[IgnoreMyGlobalFilterAttribute]  //加入此特性过滤指定过滤器
+        [ServiceFilter(typeof(TimingActionFilter))]
+
+        public IActionResult GetIgnoreGlobal()
+        {
+            Thread.Sleep(3020);
+            return Ok("GetIgnoreGlobal");
         }
     }
 

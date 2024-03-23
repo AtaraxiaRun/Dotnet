@@ -1,5 +1,8 @@
 ﻿namespace NetCore.Api.Middleware.Middlewares
 {
+    /// <summary>
+    /// 有ILog注入的中间件
+    /// </summary>
     public class MyCustomMiddleware
     {
         private readonly RequestDelegate _next;

@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\bin\Debug\net8.0\NetCore.ConsoleGc.DisposeText.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\bin\Debug\net8.0\NetCore.ConsoleGc.DisposeText.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\bin\Debug\net8.0\NetCore.ConsoleGc.DisposeText.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\bin\Debug\net8.0\NetCore.ConsoleGc.DisposeText.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\bin\Debug\net8.0\NetCore.ConsoleGc.DisposeText.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\refint\NetCore.ConsoleGc.DisposeText.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\NetCore.ConsoleGc.DisposeText.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleGc.DisposeText\obj\Debug\net8.0\ref\NetCore.ConsoleGc.DisposeText.dll

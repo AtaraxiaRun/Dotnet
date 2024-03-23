@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\bin\Debug\net8.0\NetCore.ConsoleInterface.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\bin\Debug\net8.0\NetCore.ConsoleInterface.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\bin\Debug\net8.0\NetCore.ConsoleInterface.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\bin\Debug\net8.0\NetCore.ConsoleInterface.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\bin\Debug\net8.0\NetCore.ConsoleInterface.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\refint\NetCore.ConsoleInterface.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\NetCore.ConsoleInterface.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleInterface\obj\Debug\net8.0\ref\NetCore.ConsoleInterface.dll

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCore.Windows.WinFormConfigureAwait")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed44cd8656207f47ffe09be8fc4975d8e88971f7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b2ee193b40abf94390cf81398f8771f0619805")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCore.Windows.WinFormConfigureAwait")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCore.Windows.WinFormConfigureAwait")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

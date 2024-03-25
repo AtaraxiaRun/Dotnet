@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MPBBqrKKBWEwiglgsaNDxncR7vgYtbNtKlKtZl7AOGeY1/3pYb/TEMT6nqpKjv/6brCGO9f+EOfI0oAmp+DTdw==",
+  "dgSpecHash": "CxdcAlxlFoCQLnGyCsfPT+3V8App7ShNKLI6/OFwPPLB/RxnhB9lp47EHkFlZ2905t/urpFcJbq+rqhNQe1heQ==",
   "success": true,
-  "projectFilePath": "D:\\BaiduNetdiskDownload\\SWCODE\\GitHub\\DotNet\\AspNet.IOC\\AspNetCore.IOC.csproj",
+  "projectFilePath": "D:\\BaiduNetdiskDownload\\SWCODE\\GitHub\\DotNet\\AspNet.IOC\\AspNetCore.DI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\12987\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\12987\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Sj1FoGRVmLP8xy5XQfW3jsu+v3q8KYhu03MFJOZDMio=",
+  "Source": "AspNetCore.Api.InjectionAttributes",
+  "BasePath": "_content/AspNetCore.Api.InjectionAttributes",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

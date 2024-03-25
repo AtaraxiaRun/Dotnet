@@ -1,0 +1,6 @@
+@AspNetCore.Api.InjectionAttributes_HostAddress = http://localhost:5281
+
+GET {{AspNetCore.Api.InjectionAttributes_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

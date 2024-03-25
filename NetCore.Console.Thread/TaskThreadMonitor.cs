@@ -14,7 +14,7 @@ namespace NetCore.ConsoleThread
         public void ThreadMonitorTime() 
         {
             object lockObject = new object();
-            bool lockTaken = false;
+            bool lockTaken = false; //尝试获取锁，如果没有拿到锁，那么等20秒，20秒后返回一个结果，true为成功获取到锁，false为没有拿到锁
 
             try
             {

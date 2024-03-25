@@ -9,7 +9,9 @@ using System.Threading.Tasks;
 namespace NetCore.ConsoleThread
 {
     /// <summary>
-    /// 线程锁:1.Lock锁 2.Interlocked.Exchange 原子锁   
+    /// 线程锁:
+    /// 1.Lock 阻塞锁 
+    /// 2.Interlocked.Exchange 原子锁（非阻塞）   
     /// Interlocked原子操作类可以对单个变量(整型（一般都是用于整型），引用类型，集合)   做更新的原子操作，不需要使用Lock
     /// </summary>
     public class ThreadLock

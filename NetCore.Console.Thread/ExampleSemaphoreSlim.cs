@@ -13,7 +13,7 @@ namespace NetCore.ConsoleThread
     {
         private static SemaphoreSlim _semaphoreSlim = new SemaphoreSlim(3); //只允许同时有3个线程
 
-        public static async Task Main()
+        public static async Task Main1()
         {
             var tasks = new Task[5];
 

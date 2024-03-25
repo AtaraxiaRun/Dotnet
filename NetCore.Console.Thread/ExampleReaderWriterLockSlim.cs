@@ -6,15 +6,17 @@ using System.Threading.Tasks;
 
 namespace NetCore.ConsoleThread
 {
+
+    #region 使用ReaderWriterLockSlim来保护对共享数据并发读，与同步写访问
     /// <summary>
-    /// 使用ReaderWriterLockSlim来保护对共享数据的访问：
+    /// 使用ReaderWriterLockSlim来保护对共享数据并发读，与同步写访问：
     /// </summary>
     public class ExampleReaderWriterLockSlim
     {
         private static ReaderWriterLockSlim _rwLock = new ReaderWriterLockSlim();
         private static List<int> _items = new List<int>();
 
-        public static void Main()
+        public static void Main1()
         {
             new Thread(Read).Start();
             new Thread(Read).Start();
@@ -46,4 +48,5 @@ namespace NetCore.ConsoleThread
             }
         }
     }
+    #endregion
 }

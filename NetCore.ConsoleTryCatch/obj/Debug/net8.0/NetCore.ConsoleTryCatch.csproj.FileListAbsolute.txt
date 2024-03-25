@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\bin\Debug\net8.0\NetCore.ConsoleTryCatch.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\bin\Debug\net8.0\NetCore.ConsoleTryCatch.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\bin\Debug\net8.0\NetCore.ConsoleTryCatch.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\bin\Debug\net8.0\NetCore.ConsoleTryCatch.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\bin\Debug\net8.0\NetCore.ConsoleTryCatch.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\refint\NetCore.ConsoleTryCatch.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\NetCore.ConsoleTryCatch.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleTryCatch\obj\Debug\net8.0\ref\NetCore.ConsoleTryCatch.dll

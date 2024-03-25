@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace NetCore.ConsoleThread
 {
+    #region 异步编程
     /// <summary>
     /// 异步方法
     /// </summary>
@@ -73,4 +74,5 @@ namespace NetCore.ConsoleThread
             }, ct);
         }
     }
+    #endregion
 }

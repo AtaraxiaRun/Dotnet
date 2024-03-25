@@ -1,0 +1,17 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\bin\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\bin\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\bin\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\bin\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\bin\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.Form1.resources
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.csproj.GenerateResource.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\refint\NetCore.Windows.WinFormConfigureAwait.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\NetCore.Windows.WinFormConfigureAwait.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.Windows.WinFormConfigureAwait\obj\Debug\net8.0-windows\ref\NetCore.Windows.WinFormConfigureAwait.dll

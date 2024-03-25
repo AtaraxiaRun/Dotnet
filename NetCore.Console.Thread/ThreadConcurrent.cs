@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 
 namespace NetCore.ConsoleThread
 {
+    #region 线程安全的集合对象
     /// <summary>
-    /// 线程安全的对象
+    /// 线程安全的集合对象
     /// </summary>
     public class ThreadConcurrent
     {
@@ -104,4 +105,5 @@ namespace NetCore.ConsoleThread
         #endregion
 
     }
+    #endregion
 }

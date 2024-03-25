@@ -10,7 +10,7 @@ namespace NetCore.ConsoleThread
     /// <summary>
     /// 并发编程
     /// </summary>
-    public class ConcurrencyDemo
+    public partial class ConcurrencyDemo
     {
         private int[] data; //实际并发中使用的数据集合
         private List<Task> tasks = new List<Task>();
@@ -82,7 +82,7 @@ namespace NetCore.ConsoleThread
             Console.WriteLine("**************使用Task.Start处理数组********");
             foreach (var item in data)
             {
-                var task=new Task(() => SafeDoWork(item));
+                var task = new Task(() => SafeDoWork(item));
                 tasks.Add(task);
                 Thread.Sleep(500); //等待1秒
             }
@@ -130,6 +130,43 @@ namespace NetCore.ConsoleThread
             }
         }
 
+
+
+
+    }
+    #endregion
+
+    #region 并发编程-Task补充Delay,ConfigureAwait(false)
+
+    public partial class ConcurrencyDemo
+    {
+        #region Task补充Delay,ConfigureAwait(false)
+        /// <summary>
+        /// 总结： 
+        /// 1.DelayThread.Sleep(2000)是阻塞主线程的，await Task.Delay(2000); 是不阻塞主线程，只阻塞当前的线程，Task.Delay在异步方法中用，Thread.Sleep在同步方法中用
+        /// 2.ConfigureAwait 看这个项目NetCore.Windows.WinFormConfigureAwait
+        /// </summary>
+        /// <returns></returns>
+        public async Task WriteAsync1()
+        {
+            // await Task.Run 虽然会马上执行，但是遇到了await Task.Delay(100)等待100毫秒，所以主线程会先输出，不过主线程使用了Task.WaitAll,所以还是会等待我这个线程
+            await Task.Run(async () =>
+            {
+                await Task.Delay(5000).ConfigureAwait(false);
+                Console.WriteLine("WriteAsync1_2");
+            }).ConfigureAwait(false);
+        }
+
+        public async Task WriteAsync2()
+        {
+            await Task.Run(async () =>
+                {
+                    await Task.Delay(100).ConfigureAwait(false);
+                    Console.WriteLine("WriteAsync2_3");
+                }).ConfigureAwait(false);
+        }
+
+        #endregion
     }
     #endregion
 }

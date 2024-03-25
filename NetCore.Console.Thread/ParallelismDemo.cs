@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace NetCore.ConsoleThread
 {
+    #region 并行编程
     public class ParallelismDemo
     {
         private int[] data;
@@ -115,4 +116,5 @@ namespace NetCore.ConsoleThread
             return value * value; // 示例：计算平方
         }
     }
+    #endregion
 }

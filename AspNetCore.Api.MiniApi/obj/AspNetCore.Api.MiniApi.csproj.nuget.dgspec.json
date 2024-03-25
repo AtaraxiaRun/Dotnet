@@ -14,10 +14,12 @@
         "outputPath": "D:\\BaiduNetdiskDownload\\SWCODE\\GitHub\\DotNet\\AspNetCore.Api.MiniApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
+          "F:\\VS2019Shared\\NuGetPackages",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
           "C:\\Users\\12987\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

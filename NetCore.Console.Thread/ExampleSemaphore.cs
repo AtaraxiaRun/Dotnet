@@ -14,7 +14,7 @@ namespace NetCore.ConsoleThread
         // 创建一个Semaphore实例，最大允许3个线程同时访问资源，初始也允许3个线程访问
         private static Semaphore _pool = new Semaphore(3, 3);
 
-        static void Main()
+        static void Main1()
         {
             for (int i = 1; i <= 5; i++)
             {

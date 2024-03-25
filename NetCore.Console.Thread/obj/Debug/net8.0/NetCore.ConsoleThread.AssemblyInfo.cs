@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NetCore.ConsoleThread")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ed44cd8656207f47ffe09be8fc4975d8e88971f7")]
 [assembly: System.Reflection.AssemblyProductAttribute("NetCore.ConsoleThread")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NetCore.ConsoleThread")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

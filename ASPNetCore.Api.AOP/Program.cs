@@ -6,7 +6,8 @@ using ASPNetCore.Api.AOP.Middlewares;
 namespace ASPNetCore.Api.AOP
 {
     /// <summary>
-    /// https://learn.microsoft.com/zh-cn/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#use-middleware-in-the-filter-pipeline  我只能说这个太牛了 	
+    /// https://learn.microsoft.com/zh-cn/aspnet/core/mvc/controllers/filters?view=aspnetcore-8.0#use-middleware-in-the-filter-pipeline  我只能说这个太牛了 	 中间件也可以
+    /// 过滤器执行顺序：https://learn.microsoft.com/zh-cn/aspnet/core/mvc/controllers/filters/_static/filter-pipeline-2.png?view=aspnetcore-8.0
     /// </summary>
     public class Program
     {

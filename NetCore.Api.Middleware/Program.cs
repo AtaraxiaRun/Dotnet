@@ -1,5 +1,5 @@
 #region 基础Middleware 中间件用法
-#if false
+#if true
 
 using NetCore.Api.Middleware.Middlewares;
 
@@ -21,7 +21,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 //中间件学习：https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/?view=aspnetcore-8.0
-//中间件的执行顺序（图片）：https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/index/_static/middleware-pipeline.svg?view=aspnetcore-8.0
+//中间件的执行顺序（图片）：https://learn.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/index/_static/middleware-pipeline.svg?view=aspnetcore-8.0 ,执行顺序中可以看到中间件是开始执行 前 _next ,后面执行完了其他的中间件又会返回调用 _next 后面的那段功能，开始是对请求做处理，结束是对结果做处理
 app.UseExceptionHandling(); //异常处理  //放到最开始，可以捕获所有下面中间件的异常
 
 //app.Run终端中间件,遇到我了后，代表程序结束了，后面所有的中间件都不会执行[一般放到最后执行]
@@ -39,8 +39,10 @@ app.UseRouting();
 app.Use(async (context, next) =>
 {
     // await context.Response.WriteAsync("Hello world Use!"); //响应体只能写入一次，因为HTTP协议不允许在发送响应体之后再更改响应头部信息
-   await Console.Out.WriteLineAsync("Hello world Use!");
-   await next(); // 调用管道中的下一个中间件【也可以不调用，直接让管道短路，停止运行】
+    await Console.Out.WriteLineAsync("Hello world Use!-1");
+    await next(); // 调用管道中的下一个中间件【也可以不调用，直接让管道短路，停止运行】
+    await Console.Out.WriteLineAsync("Hello world Use!-2");
+
 });
 
 app.UseMyMiddleWare(); //自定义中间件
@@ -221,7 +223,6 @@ public class MyRateLimitOptions
 }
 #endif
 #endregion
-
 #region 中间件短路：路由后对中间件进行短路
 #if false
  
@@ -236,8 +237,6 @@ app.MapShortCircuit(404, "robots.txt", "favicon.ico"); //一次为多个路由设置短路
 app.Run();
 #endif
 #endregion
-
-
 #region 中间件短路方法：不调用Invoke方法
 #if false
 var app = WebApplication.Create();
@@ -272,8 +271,8 @@ app.Use(async (context, next) =>
 app.Run();
 #endif
 #endregion
-
 #region 中间件短路：Run
+#if false
 var app = WebApplication.Create();
 
 app.Use(async (context, next) =>
@@ -294,4 +293,5 @@ app.Use(async (context, next) =>
     await next.Invoke(context);
 });
 app.Run();
+#endif
 #endregion

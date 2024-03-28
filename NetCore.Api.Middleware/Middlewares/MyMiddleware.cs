@@ -12,13 +12,15 @@
         {
             // 在中间件处理请求之前执行的逻辑
             // ...
-            await Console.Out.WriteLineAsync("进入了自定义中间件");
+            await Console.Out.WriteLineAsync("进入了自定义中间件-1");
             //int i1 = 0;
             //var i2 = 1 / i1;   //触发异常
             //进入下一个中间件
             await _next(context);
             // 在中间件处理请求之后执行的逻辑
             // ...
+            await Console.Out.WriteLineAsync("进入了自定义中间件-2");
+
         }
 
     }

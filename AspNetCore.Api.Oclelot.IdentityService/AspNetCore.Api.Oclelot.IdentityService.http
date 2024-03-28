@@ -1,0 +1,6 @@
+@AspNetCore.Api.Oclelot.IdentityService_HostAddress = http://localhost:5249
+
+GET {{AspNetCore.Api.Oclelot.IdentityService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

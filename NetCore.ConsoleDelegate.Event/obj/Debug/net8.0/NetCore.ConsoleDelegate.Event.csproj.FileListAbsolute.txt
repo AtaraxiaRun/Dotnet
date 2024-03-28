@@ -1,0 +1,15 @@
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\bin\Debug\net8.0\NetCore.ConsoleDelegate.Event.exe
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\bin\Debug\net8.0\NetCore.ConsoleDelegate.Event.deps.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\bin\Debug\net8.0\NetCore.ConsoleDelegate.Event.runtimeconfig.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\bin\Debug\net8.0\NetCore.ConsoleDelegate.Event.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\bin\Debug\net8.0\NetCore.ConsoleDelegate.Event.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.GeneratedMSBuildEditorConfig.editorconfig
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.AssemblyInfoInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.AssemblyInfo.cs
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.csproj.CoreCompileInputs.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.sourcelink.json
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\refint\NetCore.ConsoleDelegate.Event.dll
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.pdb
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\NetCore.ConsoleDelegate.Event.genruntimeconfig.cache
+D:\BaiduNetdiskDownload\SWCODE\GitHub\DotNet\NetCore.ConsoleDelegate.Event\obj\Debug\net8.0\ref\NetCore.ConsoleDelegate.Event.dll

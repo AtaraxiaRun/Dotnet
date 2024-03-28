@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspNetCore.Api.InjectionAttributes")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b0b2ee193b40abf94390cf81398f8771f0619805")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspNetCore.Api.InjectionAttributes")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspNetCore.Api.InjectionAttributes")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
